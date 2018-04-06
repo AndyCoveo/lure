@@ -26,6 +26,7 @@ func mvnOutdated(path string) []moduleVersion {
 	err := cmd.Run()
 
 	if err != nil {
+		log.Println(out.String())
 		log.Println(stderr.String())
 		log.Fatal(err)
 	}
