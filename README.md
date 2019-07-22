@@ -84,6 +84,7 @@ Environment variables:
 - `IGNORE_DECLINED_PR=1` Will ignore declined PR when looking if the PR exists
 - `BITBUCKET_CLIENT_ID` the bitbucket OAuth **Key** previously created
 - `BITBUCKET_CLIENT_SECRET` the bitbucket OAuth **Secret** previously created
+- `LURE_AUTO_OPEN_AUTH_PAGE` automaticaly open the browser when using OAuth
 - `DRY_RUN` won't create a PR
 
 Custom parameter:
